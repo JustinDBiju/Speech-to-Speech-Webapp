@@ -32,7 +32,7 @@ const QAChatPage = () => {
     setQuestion("Loading...");
     try {
       const response = await axios.post(
-        "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key= api key ", {
+        "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key###########################(use api key)", {
         contents: [{ parts: [{ text: newQuestion }] }], 
       });
 
